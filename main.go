@@ -228,5 +228,6 @@ func main(){
 	if port == "" {
 		port = "8080"
 	}
-	http.ListenAndServe("0.0.0.0:"+port, nil)
+	//http.ListenAndServe("0.0.0.0:"+port, nil)
+	http.ListenAndServe(":"+port, nil)
 }
