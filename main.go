@@ -152,7 +152,7 @@ func getRoomsAvailable(w http.ResponseWriter, r *http.Request){
 	//respuesta[0].hotel_name = hotel_name;
 	
 
-	// asignar datos nuevos
+	// asignar datos de acuerdo al formato
 	hotel_name := "";
 	hotel_thumb := "";
 	hotel_check_in := "";
