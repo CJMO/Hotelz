@@ -35,8 +35,7 @@
 		},
 		{
 			"ImportPath": "github.com/buger/jsonparser",
-			"Comment": "Json Parser",
-			"Rev": "ac112f7d75a0714af1bd86ab17749b31f7809640"
+			"Rev": "f04e003e4115787c6272636780bc206e5ffad6c4"
 		}
 	]
 }
