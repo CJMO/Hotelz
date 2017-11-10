@@ -8,6 +8,4 @@
     - export PATH="${TRAVIS_BUILD_DIR}/Godeps/_workspace/bin:$PATH"
 
   script:
-    - go test -v
-    - go test -coverprofile=cover.out 
-    - go tool cover -html=cover.out
+    - go test -cover -v
